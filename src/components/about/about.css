@@ -1,0 +1,144 @@
+h6 {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    gap: 10%;
+}
+
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: var(--color-primary);
+    background-image: url("../../assets/space.jpg");
+    background-size: cover;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { 
+    grid-area: 2 / 1 / 3 / 3;
+    margin-bottom: 2rem;
+ }
+
+.about__card {
+    background: var(--color-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.about__name {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/**************************** MEDIA QUERIES (MEDIUM DEVICES) ***************************/
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 7%;
+    }
+
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 0;
+    }
+
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**************************** MEDIA QUERIES (SMALL DEVICES) ***************************/
+@media screen and (max-width: 600px) {
+    .about__me {
+        width: 65%;
+        margin: 2rem auto 0;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+    
+    .about__container {
+        padding-bottom: 4rem;
+        
+    }
+
+    .about__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

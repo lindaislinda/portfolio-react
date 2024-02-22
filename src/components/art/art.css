@@ -1,0 +1,71 @@
+#art{
+    padding-bottom: 4rem;
+}
+.container__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.paintings__container {
+  margin-bottom: 5rem;
+}
+
+.painting {
+  background: var(--color-bg-varient);
+  text-align: center;
+  
+  border-radius: 1rem;
+  user-select: none;
+}
+
+.painting__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.painting__img img {
+    border-radius: 1rem;
+}
+
+.painting__name {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  letter-spacing: 0.2em;
+  text-align: right; 
+  line-height: 1.2;
+}
+
+
+.swiper-slide-active .description__container {
+  flex: 1;
+  font-size: large;
+}
+
+.painting__description {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+/* ======= MEDIA QUERIES (Medium Devices) ====== */
+@media screen and (max-width: 1024px) {
+  .container.paintings__container {
+    width: 60%;
+  }
+}
+
+/* ======= MEDIA QUERIES (Small Devices) ====== */
+@media screen and (max-width: 600px) {
+  .container.paintings__container {
+    width: var(--container-width-sm);
+  }
+  .painting__description {
+    width: var(--container-width-sm);
+  }
+}
