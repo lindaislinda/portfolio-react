@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.51c5d0ba.css",
-    "main.js": "/portfolio-react/static/js/main.10741f64.js",
-    "static/media/space.jpg": "/portfolio-react/static/media/space.d9363429a96d1f826e03.jpg",
-    "static/media/image.png": "/portfolio-react/static/media/image.ca311e684596bffeb7f5.png",
-    "static/media/heart shaped planet.png": "/portfolio-react/static/media/heart shaped planet.cc597579013462cc3191.png",
-    "static/media/space diorama.png": "/portfolio-react/static/media/space diorama.ba0ab25d5da9726bc150.png",
-    "static/media/waving doorway.png": "/portfolio-react/static/media/waving doorway.f00ae38942056630ca13.png",
-    "static/media/image2.png": "/portfolio-react/static/media/image2.717e9d4f3439f5e9a726.png",
-    "static/media/hi.png": "/portfolio-react/static/media/hi.cfa2a44d3fdbdf9a2a8b.png",
-    "static/media/image1.png": "/portfolio-react/static/media/image1.16d81f7f15165730fb56.png",
-    "static/media/Linda-Resume.pdf": "/portfolio-react/static/media/Linda-Resume.02be13c02e3609ec5728.pdf",
-    "static/media/image5.png": "/portfolio-react/static/media/image5.d29c64cc7a13bfaf88bb.png",
-    "static/media/chamaeleon.png": "/portfolio-react/static/media/chamaeleon.e60b9e68a28363580e25.png",
-    "static/media/image4.png": "/portfolio-react/static/media/image4.44815588eaecd04cd08c.png",
-    "static/media/image3.png": "/portfolio-react/static/media/image3.7e031a6e571113b76491.png",
-    "static/media/wave_footer.svg": "/portfolio-react/static/media/wave_footer.1a14e224de1626f6cac9e00cf2ffe118.svg",
-    "static/media/wave (4).svg": "/portfolio-react/static/media/wave (4).91d26b8af38363514d45745c55c4faf2.svg",
-    "index.html": "/portfolio-react/index.html",
-    "main.51c5d0ba.css.map": "/portfolio-react/static/css/main.51c5d0ba.css.map",
-    "main.10741f64.js.map": "/portfolio-react/static/js/main.10741f64.js.map"
+    "main.css": "/static/css/main.9f76386d.css",
+    "main.js": "/static/js/main.0d275981.js",
+    "static/media/space.jpg": "/static/media/space.d9363429a96d1f826e03.jpg",
+    "static/media/image.png": "/static/media/image.ca311e684596bffeb7f5.png",
+    "static/media/heart shaped planet.png": "/static/media/heart shaped planet.cc597579013462cc3191.png",
+    "static/media/space diorama.png": "/static/media/space diorama.ba0ab25d5da9726bc150.png",
+    "static/media/waving doorway.png": "/static/media/waving doorway.f00ae38942056630ca13.png",
+    "static/media/image2.png": "/static/media/image2.717e9d4f3439f5e9a726.png",
+    "static/media/hi.png": "/static/media/hi.cfa2a44d3fdbdf9a2a8b.png",
+    "static/media/image1.png": "/static/media/image1.16d81f7f15165730fb56.png",
+    "static/media/Linda-Resume.pdf": "/static/media/Linda-Resume.02be13c02e3609ec5728.pdf",
+    "static/media/image5.png": "/static/media/image5.d29c64cc7a13bfaf88bb.png",
+    "static/media/chamaeleon.png": "/static/media/chamaeleon.e60b9e68a28363580e25.png",
+    "static/media/image4.png": "/static/media/image4.44815588eaecd04cd08c.png",
+    "static/media/image3.png": "/static/media/image3.7e031a6e571113b76491.png",
+    "static/media/wave_footer.svg": "/static/media/wave_footer.1a14e224de1626f6cac9e00cf2ffe118.svg",
+    "static/media/wave (4).svg": "/static/media/wave (4).91d26b8af38363514d45745c55c4faf2.svg",
+    "index.html": "/index.html",
+    "main.9f76386d.css.map": "/static/css/main.9f76386d.css.map",
+    "main.0d275981.js.map": "/static/js/main.0d275981.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c5d0ba.css",
-    "static/js/main.10741f64.js"
+    "static/css/main.9f76386d.css",
+    "static/js/main.0d275981.js"
   ]
 }
