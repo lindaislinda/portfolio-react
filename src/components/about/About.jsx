@@ -34,7 +34,7 @@ const About = () => {
               <h6>Computer Science</h6>
               <h6>University of South Florida</h6>
               <h6>Expected: May 2025</h6>
-              <h6>GPA: 4.0</h6>
+              <h6>GPA: 3.96/4.0</h6>
             </article>
 
             <article className='about__card div2'>
@@ -42,10 +42,10 @@ const About = () => {
                 <BsCodeSlash className='about__icon'/>
                 <h4>Skills</h4>
               </div>
-              <h6>OOP</h6>
-              <h6>DevOps</h6>
-              <h6>Fullstack Development</h6>
-              <h6>Data Structure & Algorithms</h6>
+              <h6>Full-Stack Development</h6>
+              <h6>DevOps & Infrastructure</h6>
+              <h6>OOP & DSA</h6>
+              <h6>Cloud Computing</h6>
             </article>
 
             {/* <article className='about__card div3'>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMAGE1 from "../../assets/image1.png";
+import IMAGE1 from "../../assets/image2.png";
 import IMAGE2 from "../../assets/ai-nomad-shellhacks.png";
 import IMAGE3 from "../../assets/image3.png";
 import IMAGE4 from "../../assets/hackabull2024.png";
@@ -10,30 +10,30 @@ const data = [
   {
     id: 4,
     image: IMAGE4,
-    title: "Tampa's Largest Hackathon",
+    title: "Tampa's Largest Hackathon Website",
     github: "https://github.com/berichonq/hackabull",
     demo: "https://www.hackabull.org/",
   },
   {
     id: 1,
-    image: IMAGE1,
-    title: "Personal Blog Website",
-    github: "https://github.com/lindaislinda/Personal-Blog",
-    demo: "https://linda-s-personal-blog.herokuapp.com/",
-  },
-  {
-    id: 2,
     image: IMAGE2,
-    title: "AI Nomad Navigator",
-    github: "https://github.com/moyo-ayy/trip-planner",
+    title: "AI Nomad Navigator - AI Travel Assistant",
+    github: "https://github.com/moyo-ayy/trip-planner/tree/dev",
     demo: "https://drive.google.com/file/d/1jpr5QIKTDHtXke0m9EK2IQe1I9WWLib3/view?usp=sharing",
   },
   {
-    id: 3,
-    image: IMAGE2,
+    id: 2,
+    image: IMAGE1,
     title: "Coffee Shop Landing Page",
     github: "https://github.com/lindaislinda/Coffee-shop-Landing-Page",
     demo: "https://lindaislinda.github.io/Coffee-shop-Landing-Page/",
+  },
+  {
+    id: 3,
+    image: IMAGE3,
+    title: "Dice Game",
+    github: "https://github.com/lindaislinda/Dice-Game",
+    demo: "https://lindaislinda.github.io/Dice-Game/",
   },
 
   {
