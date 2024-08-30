@@ -10,22 +10,65 @@ const Testimonials = () => {
         <article className="testimonial">
           <div className="club__avatar">
             <img
+              src="https://th.bing.com/th/id/R.0992c8b4ecc37f4d5e22a0840cb8034b?rik=bp3CSAmcqMoC7g&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2faiq%2f6kn%2faiq6knx5T.jpg&ehk=QVL36hHqNbKRh%2bnRqLwKSDyVD8KOlTxAjYo1%2b9I2nPI%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+          <h5 className="club__name">Apple - CAD</h5>
+          <h5 className="club__name">
+            Software Engineer Intern | May 2024 - Aug 2024
+          </h5>
+          <small className="club__review">
+            • <span>Reduce 99% space usage</span> by designing optimal graph
+            database schemas, ensuring efficient data retrieval
+          </small>
+          <small className="club__review">
+            • Enhancedata querying capabilities and{" "}
+            <span>reduced response times by 40%</span> by implementing a robust{" "}
+            <span>GraphQL API</span>
+          </small>
+          <small className="club__review">
+            {" "}
+            • Identify key information requirements by creating multiple{" "}
+            <span>UI prototypes</span> and presenting them to stakeholders
+          </small>
+          <small className="club__review">
+            {" "}
+            • <span>Increase code coverage to 95%</span> by automating testing
+            procedures with unit tests
+          </small>
+        </article>
+        <br />
+        <article className="testimonial">
+          <div className="club__avatar">
+            <img
               src="https://th.bing.com/th/id/R.14faea1f5c3935bdad8b8fd8b98ef358?rik=7HVMm%2ff77s87EQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fdell-logo-png-dell-logo-png-2778.jpg&ehk=qtLGk59SkiYYhpviZmFjYlOoRtPpFcBrAowONNrH10A%3d&risl=&pid=ImgRaw&r=0"
               alt=""
             />
           </div>
           <h5 className="club__name">Dell Technologies</h5>
-          <h5 className="club__name">Software Engineer Intern | May 2023 - Aug 2023</h5>
+          <h5 className="club__name">
+            Software Engineer Intern | May 2023 - Aug 2023
+          </h5>
           <small className="club__review">
-            • Enhanced a multi-cloud orchestration platform using <span>Docker, Kubernetes, 
-PostgreSQL, and RabbitMQ,</span> ensuring seamless scalability across diverse cloud environments
+            • Improved scalability upgrading a multi-cloud orchestration
+            platform using{" "}
+            <span>Docker, Kubernetes, PostgreSQL, and RabbitMQ</span>
           </small>
           <small className="club__review">
-            • Conducted a successful Proof of Concept for company’s cutting-edge technology acquisition worth <span>$100 million</span>, 
-demonstrating its capabilities in reducing operational overhead by deploying complex blueprints to cloud services
+            • Analyzed Dell’s <span>$100M cloud technology acquisition</span>,
+            identifying use cases and achieving a{" "}
+            <span>25% faster deployment</span>
           </small>
           <small className="club__review">
-            • Architected and implemented a robust infrastructure by efficiently isolating database services and messaging queue services into distinct virtual machines, optimizing resource utilization and enhancing system reliability
+            {" "}
+            • Architected infrastructure by isolating database and messaging
+            queue services, <span>optimizing resource use by 15%</span>
+          </small>
+          <small className="club__review">
+            {" "}
+            • <span>Orchestrated 50+ virtual machines</span> and established
+            secure connections by creating a Public Key Infrastructure
           </small>
         </article>
       </div>
@@ -39,18 +82,24 @@ demonstrating its capabilities in reducing operational overhead by deploying com
             />
           </div>
           <h5 className="club__name">Student Government Computer Services</h5>
-          <h5 className="club__name">Computer Assistant | Nov 2022 - Present</h5>
+          <h5 className="club__name">
+            Computer Assistant | Nov 2022 - Present
+          </h5>
           <small className="club__review">
-            • Diagnose and troubleshoot <span>30+</span> network, printing, and
-            technical problems per week
+            •{" "}
+            <span>
+              Diagnose and troubleshoot 30+ network, printing, and technical
+              problems
+            </span>{" "}
+            per week
           </small>
           <small className="club__review">
-            • Monitor functionality, security, and integrity of the printing
-            service and computers’ physical structure
+            • <span>Monitor functionality, security, and integrity</span> of the
+            printing service and computers’ physical structure
           </small>
           <small className="club__review">
-            • Provide quality customer service with general support for
-            hardware, network connections, and external software
+            • Provide quality customer service with general support for{" "}
+            <span>hardware, network connections, and external software</span>
           </small>
         </article>
       </div>
@@ -69,10 +118,17 @@ demonstrating its capabilities in reducing operational overhead by deploying com
           <h5 className="club__name">Google Developer Student Club</h5>
           <h5 className="club__name">Tech Lead | Jan 2023 - Present</h5>
           <small className="club__review">
-            • Spearhead the development of GDSC’s <span>full-stack software development project</span> in collaboration with the e-board team, utilizing cutting-edge technologies and innovative methodologies to deliver a robust and scalable solution
+            • Spearhead the development of GDSC’s{" "}
+            <span>full-stack software development project</span> in
+            collaboration with the e-board team, utilizing cutting-edge
+            technologies and innovative methodologies to deliver a robust and
+            scalable solution
           </small>
           <small className="club__review">
-            • Organize <span>4+</span> emerging technologies workshops per semester and provide hands-on training to the latest advancements, resulting in a <span>30%</span> increase in attendance and positive feedback from participants
+            • Organize <span>4+</span> emerging technologies workshops per
+            semester and provide hands-on training to the latest advancements,
+            resulting in a <span>30%</span> increase in attendance and positive
+            feedback from participants
           </small>
         </article>
         <br />
@@ -87,12 +143,20 @@ demonstrating its capabilities in reducing operational overhead by deploying com
           <h5 className="club__name">
             Society of Hispanic Professional Engineers (SHPE)
           </h5>
-          <h5 className="club__name">Software Workshops Director | June 2023 - Present</h5>
+          <h5 className="club__name">
+            Software Workshops Director | June 2023 - Present
+          </h5>
           <small className="club__review">
-            • Lead the promotion of technology within the chapter by organizing <span>6 </span>annual software workshops on cutting-edge technologies, including Cloud, Docker, and Kubernetes, attracting an average of <span>50</span> participants per session
+            • Lead the promotion of technology within the chapter by organizing{" "}
+            <span>6 </span>annual software workshops on cutting-edge
+            technologies, including Cloud, Docker, and Kubernetes, attracting an
+            average of <span>50</span> participants per session
           </small>
           <small className="club__review">
-            • Partner with top industry experts and seasoned instructors to curate and refine workshop content, guaranteeing its alignment with current tech trends and significantly enhancing its applicability for student real-world scenarios
+            • Partner with top industry experts and seasoned instructors to
+            curate and refine workshop content, guaranteeing its alignment with
+            current tech trends and significantly enhancing its applicability
+            for student real-world scenarios
           </small>
         </article>
         <br />
@@ -106,7 +170,9 @@ demonstrating its capabilities in reducing operational overhead by deploying com
           <h5 className="club__name">
             Society of Hispanic Professional Engineers (SHPE)
           </h5>
-          <h5 className="club__name">Marketing Director | Nov 2022 - June 2023</h5>
+          <h5 className="club__name">
+            Marketing Director | Nov 2022 - June 2023
+          </h5>
           <small className="club__review">
             • Develop effective marketing strategy and maintain professional
             communication with industry connections on SHPE’s LinkedIn to
