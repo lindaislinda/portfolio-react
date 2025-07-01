@@ -47,8 +47,8 @@ const About = () => {
               </div>
               <h6>Computer Science</h6>
               <h6>University of South Florida</h6>
-              <h6>Expected: May 2025</h6>
-              <h6>GPA: 3.96/4.0</h6>
+              <h6>Graduate: May 2025</h6>
+              <h6>GPA: 3.97/4.0</h6>
             </article>
 
             <article className="about__card div2">
