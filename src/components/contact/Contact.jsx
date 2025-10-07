@@ -33,13 +33,6 @@ const Contact = () => {
             <h5>nguyen133@usf.edu</h5>
             <a href="mailto:nguyen133@usf.edu" target="_blank">Send a message</a>
           </article>
-
-          <article className="contact__option">
-            <MdOutlineSms className='contact__option-icon'/>
-            <h4>Phone</h4>
-            <h5>(+1) 386-278-2014</h5>
-            <a href="sms:+13862782014" target="_blank">Text</a>
-          </article>
         </div>
 
         <form ref = {form} onSubmit = {sendEmail}>
@@ -53,5 +46,6 @@ const Contact = () => {
     </section>
   )
 }
+
 
 export default Contact
