@@ -1,6 +1,13 @@
 import React from "react";
 import "./testimonials.css";
 
+// Import images from assets
+// import appleLogo from "../../assets/apple.png";
+// import dellLogo from "../../assets/dell.png";
+// import usfLogo from "../../assets/usf.png";
+import gdscLogo from "../../assets/GDSC_Logo_White.png";
+// import shpeLogo from "../../assets/shpe.png";
+
 const Testimonials = () => {
   return (
     <section id="testimonials">
@@ -111,7 +118,7 @@ const Testimonials = () => {
         <article className="testimonial">
           <div className="club__avatar">
             <img
-              src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/chapter_banners/logo_4osUi1m.jpg"
+              src={gdscLogo}
               alt=""
             />
           </div>
