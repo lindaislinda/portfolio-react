@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ed96149d.css",
-    "main.js": "/static/js/main.e850f15a.js",
+    "main.js": "/static/js/main.8fe95789.js",
     "static/media/hackabull2024.png": "/static/media/hackabull2024.612ade713e93becd1a97.png",
     "static/media/space.jpg": "/static/media/space.d9363429a96d1f826e03.jpg",
     "static/media/image.png": "/static/media/image.ca311e684596bffeb7f5.png",
@@ -14,15 +14,16 @@
     "static/media/Linda-Resume.pdf": "/static/media/Linda-Resume.02be13c02e3609ec5728.pdf",
     "static/media/image5.png": "/static/media/image5.d29c64cc7a13bfaf88bb.png",
     "static/media/chamaeleon.png": "/static/media/chamaeleon.e60b9e68a28363580e25.png",
+    "static/media/GDSC_Logo_White.png": "/static/media/GDSC_Logo_White.cb7279befb7c6992d358.png",
     "static/media/image3.png": "/static/media/image3.7e031a6e571113b76491.png",
     "static/media/wave_footer.svg": "/static/media/wave_footer.1a14e224de1626f6cac9e00cf2ffe118.svg",
     "static/media/wave (4).svg": "/static/media/wave (4).91d26b8af38363514d45745c55c4faf2.svg",
     "index.html": "/index.html",
     "main.ed96149d.css.map": "/static/css/main.ed96149d.css.map",
-    "main.e850f15a.js.map": "/static/js/main.e850f15a.js.map"
+    "main.8fe95789.js.map": "/static/js/main.8fe95789.js.map"
   },
   "entrypoints": [
     "static/css/main.ed96149d.css",
-    "static/js/main.e850f15a.js"
+    "static/js/main.8fe95789.js"
   ]
 }
