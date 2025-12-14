@@ -21,7 +21,7 @@ const About = () => {
 
         <div className="about__content">
           <h4>
-            Hello! I'm Linda Nguyen, a passionate Computer Science student with
+            Hello! I'm Linda Nguyen, a passionate Software Enginner with
             hands-on experience in{" "}
             <span className="purple">
               {" "}
@@ -29,8 +29,10 @@ const About = () => {
             </span>
             at <span className="purple_background">
               Dell Technologies
-            </span> and <span className="purple">Full-Stack Development </span>{" "}
+            </span> <span className="purple">Full-Stack Development </span>{" "}
             at <span className="purple_background">Apple.</span>
+            and <span className="purple">Cloud & AI, Datacenter Builout </span>{" "}
+            at <span className="purple_background">Microsoft.</span>
           </h4>
           <br />
           <h4>

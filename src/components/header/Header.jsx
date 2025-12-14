@@ -1,11 +1,9 @@
-import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import CHAMAELEON from '../../assets/chamaeleon.png'
-import ME from '../../assets/hi.png'
 import ME2 from '../../assets/heart shaped planet.png'
 import WAVE from '../../assets/wave (4).svg'
 import HeaderSocials from './HeaderSocials'
+import TypingEffect from './TypeEffect'
 
 const Header = () => {
   return (
@@ -15,7 +13,7 @@ const Header = () => {
           <div>
             <h5>Hello I'm</h5>
             <h1>Linda Nguyen</h1>
-            <p className='text-light' contenteditable="true">Software Engineer</p>
+            <TypingEffect/>
             <CTA/>
           </div>
           <div>
