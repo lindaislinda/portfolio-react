@@ -11,6 +11,18 @@
     border: 0.4rem solid var (--color-primary-varient);
 }
 
+.club__avatar__square {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 2rem solid var (--color-primary-varient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
 .club__name {
     text-align: center;
 }

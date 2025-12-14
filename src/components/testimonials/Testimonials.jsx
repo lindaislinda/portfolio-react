@@ -6,6 +6,7 @@ import "./testimonials.css";
 // import dellLogo from "../../assets/dell.png";
 // import usfLogo from "../../assets/usf.png";
 import gdscLogo from "../../assets/GDSC_Logo_White.png";
+import microsoftLogo from "../../assets/Microsoft_logo.svg.png";
 // import shpeLogo from "../../assets/shpe.png";
 
 const Testimonials = () => {
@@ -14,6 +15,38 @@ const Testimonials = () => {
       <h5>My personal & professional development</h5>
       <h2 className="testimonials__category">Work</h2>
       <div className="container testimonials__container">
+        <article className="testimonial">
+          <div className="club__avatar__square">
+            <img
+            src={microsoftLogo}
+            alt="Microsoft Logo"
+            />
+          </div>
+          <h5 className="club__name">Microsoft - Cloud & AI</h5>
+          <h5 className="club__name">
+            Software Engineer | July 2025 - Present
+          </h5>
+          <small className="club__review">
+            • Lead the <span>Datacenter Buildout team</span> to support the deployment
+            and maintenance of <span>cloud infrastructure across global data centers</span>
+          </small>
+          <small className="club__review">
+            • <span>Provide Topology Metadata to the most advanced Datacenters in the world, training AI/ML models to optimize energy efficiency and resource allocation.</span>
+          </small>
+          <small className="club__review">
+            • Collaborated with cross-functional teams to <span>optimize cloud
+            services, improving performance and reliability for end-users</span>
+          </small>
+          <small className="club__review">
+            • Utilized tools such as <span>Azure, PowerShell, Python, and C#</span> to automate
+            tasks and streamline operations
+          </small>
+          <small className="club__review">
+            • Gained hands-on experience in <span>cloud computing, networking, and
+            infrastructure management</span> for sovereign and airagapped clouds
+          </small>
+        </article>
+        <br />
         <article className="testimonial">
           <div className="club__avatar">
             <img
