@@ -37,8 +37,12 @@ const About = () => {
           <br />
           <h4>
             When I'm not coding, you'll find me pioneering tech workshops with
-            SHPE and leading innovative projects with Google's Developer Student
-            Clubs.
+            SHPE and leading innovative projects with Google's Developer Groups.
+          </h4>
+          <br />
+          <h4>
+            I'm also an avid matcha enthusiast and love sharing my passion for
+            this delightful beverage! 🍵💚
           </h4>
           <br />
           <div className="about__cards">
