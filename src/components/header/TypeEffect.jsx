@@ -47,7 +47,7 @@ const TypingEffect = () => {
         display: 'inline-block',
         marginLeft: '2px',
         animation: 'blink 0.7s infinite',
-        fontWeight: 100
+        fontWeight: 400
       }}>|</span>
       <style>{`
         @keyframes blink {

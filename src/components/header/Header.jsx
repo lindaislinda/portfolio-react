@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container header__container">
         <div className='grid__container'>
           <div>
-            <h5>Hello I'm</h5>
+            <h4>Hello World! I'm</h4>
             <h1>Linda Nguyen</h1>
             <TypingEffect/>
             <CTA/>
