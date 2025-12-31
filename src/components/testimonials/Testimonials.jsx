@@ -7,6 +7,8 @@ import "./testimonials.css";
 // import usfLogo from "../../assets/usf.png";
 import gdscLogo from "../../assets/GDSC_Logo_White.png";
 import microsoftLogo from "../../assets/Microsoft_logo.svg.png";
+import colorstackLogo from "../../assets/colorstack_logo.png";
+import saseLogo from "../../assets/sase_logo.png";
 // import shpeLogo from "../../assets/shpe.png";
 
 const Testimonials = () => {
@@ -148,6 +150,44 @@ const Testimonials = () => {
       <h2 className="testimonials__category">Leadership</h2>
 
       <div className="container testimonials__container">
+        <article className="testimonial">
+          <div className="club__avatar">
+            <img
+              src={colorstackLogo}
+              alt=""
+            />
+          </div>
+          <h5 className="club__name">ColorStack</h5>
+          <h5 className="club__name">Public Speaker | Jan 2023 - Present</h5>
+          <small className="club__review">
+            • <span>Public Speaker </span> at <span>ColorStack, Society of Asian Scientists and Engineers (SASE), Society of Hispanic Professional Engineers (SHPE), Google Developer Groups (GDC), Association for Computing Machinery (ACM), Society of Women Engineers (SWE), and more</span>
+          </small>
+          <small className="club__review">
+            • Host <span>20+ workshops</span> per year, up to <span>350 attendees</span> per workshop on topics including <span>Technical Interview Prep, Resume Building, Personal Branding, and Networking</span>
+          </small>
+        </article>
+        <br />
+
+        <article className="testimonial">
+          <div className="club__avatar">
+            <img
+              src={saseLogo}
+              alt=""
+            />
+          </div>
+          <h5 className="club__name">Society of Asian Scientists and Engineers (SASE)</h5>
+          <h5 className="club__name">Public Speaker | Jan 2023 - Present</h5>
+          <small className="club__review">
+            • Invited by <span>SASE Director</span> to speak at <span>Florida Regional Conventions</span> with the <span>highest student turnout</span>
+          </small>
+          <small className="club__review">
+            • Share insights on <span>Personal Branding, Networking, and Career Development to Big Tech</span> to empower aspiring <span>50+</span> professionals in STEM fields
+          </small>
+        </article>
+        <br />
+
+        
+
         <article className="testimonial">
           <div className="club__avatar">
             <img
