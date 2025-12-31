@@ -56,7 +56,7 @@ const Testimonials = () => {
               alt=""
             />
           </div>
-          <h5 className="club__name">Apple - CAD</h5>
+          <h5 className="club__name">Apple - Hardware Tech</h5>
           <h5 className="club__name">
             Software Engineer Intern | May 2024 - Aug 2024
           </h5>
