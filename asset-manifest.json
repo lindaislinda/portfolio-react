@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed96149d.css",
-    "main.js": "/static/js/main.8fe95789.js",
+    "main.css": "/static/css/main.636c2bcc.css",
+    "main.js": "/static/js/main.807db48a.js",
     "static/media/hackabull2024.png": "/static/media/hackabull2024.612ade713e93becd1a97.png",
     "static/media/space.jpg": "/static/media/space.d9363429a96d1f826e03.jpg",
     "static/media/image.png": "/static/media/image.ca311e684596bffeb7f5.png",
@@ -9,7 +9,6 @@
     "static/media/space diorama.png": "/static/media/space diorama.ba0ab25d5da9726bc150.png",
     "static/media/waving doorway.png": "/static/media/waving doorway.f00ae38942056630ca13.png",
     "static/media/image2.png": "/static/media/image2.d0d3cc35275cee287ef0.png",
-    "static/media/hi.png": "/static/media/hi.cfa2a44d3fdbdf9a2a8b.png",
     "static/media/ai-nomad-shellhacks.png": "/static/media/ai-nomad-shellhacks.b0101dd4339dbcd3e813.png",
     "static/media/Linda-Resume.pdf": "/static/media/Linda-Resume.02be13c02e3609ec5728.pdf",
     "static/media/image5.png": "/static/media/image5.d29c64cc7a13bfaf88bb.png",
@@ -19,11 +18,11 @@
     "static/media/wave_footer.svg": "/static/media/wave_footer.1a14e224de1626f6cac9e00cf2ffe118.svg",
     "static/media/wave (4).svg": "/static/media/wave (4).91d26b8af38363514d45745c55c4faf2.svg",
     "index.html": "/index.html",
-    "main.ed96149d.css.map": "/static/css/main.ed96149d.css.map",
-    "main.8fe95789.js.map": "/static/js/main.8fe95789.js.map"
+    "main.636c2bcc.css.map": "/static/css/main.636c2bcc.css.map",
+    "main.807db48a.js.map": "/static/js/main.807db48a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed96149d.css",
-    "static/js/main.8fe95789.js"
+    "static/css/main.636c2bcc.css",
+    "static/js/main.807db48a.js"
   ]
 }
