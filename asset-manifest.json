@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.636c2bcc.css",
-    "main.js": "/static/js/main.1daaeedf.js",
+    "main.js": "/static/js/main.961fddef.js",
     "static/media/hackabull2024.png": "/static/media/hackabull2024.612ade713e93becd1a97.png",
     "static/media/space.jpg": "/static/media/space.d9363429a96d1f826e03.jpg",
     "static/media/image.png": "/static/media/image.ca311e684596bffeb7f5.png",
@@ -19,10 +19,10 @@
     "static/media/wave (4).svg": "/static/media/wave (4).91d26b8af38363514d45745c55c4faf2.svg",
     "index.html": "/index.html",
     "main.636c2bcc.css.map": "/static/css/main.636c2bcc.css.map",
-    "main.1daaeedf.js.map": "/static/js/main.1daaeedf.js.map"
+    "main.961fddef.js.map": "/static/js/main.961fddef.js.map"
   },
   "entrypoints": [
     "static/css/main.636c2bcc.css",
-    "static/js/main.1daaeedf.js"
+    "static/js/main.961fddef.js"
   ]
 }
