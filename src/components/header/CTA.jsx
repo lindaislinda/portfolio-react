@@ -6,12 +6,12 @@ const CTA = () => {
   return (
     <div className="cta">
       <a
-        href="https://drive.google.com/file/d/1nrvX4cce67lgjgACHIoKlR0QdKlqiTl-/view?usp=sharing"
+        href="https://docs.google.com/document/d/1pEc23QMIs3S3ANwbAyEJ97-HnxYAyUwHf4aBjG7-Mdk/edit?tab=t.0#heading=h.aqu0wv5dof7c"
         download
         className="btn"
         target="_blank"
       >
-        <FiDownload /> Resume
+        <FiDownload /> The Complete Guide To Big Tech
       </a>
       <a href="#contact" className="btn btn-primary">
         Let's Connect!
