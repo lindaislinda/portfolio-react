@@ -8,14 +8,16 @@ const CTA = () => {
       <a
         href="https://docs.google.com/document/d/1pEc23QMIs3S3ANwbAyEJ97-HnxYAyUwHf4aBjG7-Mdk/edit?tab=t.0#heading=h.aqu0wv5dof7c"
         download
-        className="btn"
+        className="btn btn-primary"
         target="_blank"
       >
         <FiDownload /> The Complete Guide To Big Tech
       </a>
-      <a href="#contact" className="btn btn-primary">
+
+      <a href="#contact" className="btn">
         Let's Connect!
       </a>
+
     </div>
   );
 };

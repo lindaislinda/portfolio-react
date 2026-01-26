@@ -29,8 +29,32 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  display: flex;
 }
 
+.cta a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 750px) {
+  .cta {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cta a {
+    width: 100%;
+    flex: 1;
+    font-size: small;
+  }
+
+  .cta a svg {
+    font-size: 0.9rem; /* Slightly smaller icon */
+  }
+}
 /*======================= HEADER SOCIALS =====================*/
 .header__socials {
   display: flex;
